@@ -54,7 +54,7 @@ def read_input(board: Board):  # interaction with human
         row = 0
         column = 0
 
-        if u_input <= 3:
+        if u_input <= 3:  # if elif else instructions
             row = 0
             column = u_input - 1
         elif u_input <= 6:
@@ -86,7 +86,3 @@ while True:
     board.draw()
 
 board.draw()
-
-
-
-#new test
